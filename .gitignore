@@ -1,0 +1,26 @@
+# GoLand settings
+.idea/
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+builds/
+
+# Android artifacts
+*.jar
+*.aar
+
+# Protobuf artifacts
+*.pb.go
+*.pb.gw.go
+
+# Swagger artifacts
+tmp-swagger-gen
+client/docs/swagger-ui/swagger.yaml
+client/docs/statik
+
+# Python cache
+**/__pycache__/
